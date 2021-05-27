@@ -2,4 +2,4 @@ INSERT INTO `empresa` (`id`, `cnpj`, `data_atualizacao`, `data_criacao`, `razao_
 
 INSERT INTO `funcionario` (`id`, `cpf`, `data_atualizacao`, `data_criacao`, `email`, `nome`, `perfil`, `qtd_horas_almoco`, `qtd_horas_trabalho_dia`, `senha`,
 `valor_hora`, `empresa_id`) VALUES (NULL, '16248890935', CURRENT_DATE(), CURRENT_DATE(), 'admin@admin.com', 'ADMIN', 'ROLE_ADMIN', NULL, NULL,
-'123', NULL, (SELECT `id` FROM `empresa` WHERE `cnpj` = '82198127000121'));
+'$2a$10$OYYGj4v3CIi0m4nUSxW0Zu6GZIxtAq/WQkDcrCbl8Sja7N3rugRBS', NULL, (SELECT `id` FROM `empresa` WHERE `cnpj` = '82198127000121'));

@@ -42,7 +42,7 @@ public class SwaggerConfig {
                 .build();
     }
 
-    @Bean
+   @Bean
     public SecurityConfiguration security() {
         String token;
         try {
